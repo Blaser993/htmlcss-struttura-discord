@@ -26,7 +26,7 @@ header{
 main{
     padding: 20px;
     background-color: lightcoral;
-    min-height: 600px;
+    min-height: 100px;
     border: 1px solid salmon;
 }
 
@@ -67,15 +67,13 @@ nav{
     background-color: yellow;
     border: 2px dashed darkgoldenrod;
     flex-basis: 100%;
+    display:flex;
 }
 
 .col.navbar{
     display:flex;
 }
 
-.col{
-    display:flex ;
-}
 
 .col > .row{
     display: flex;
@@ -110,4 +108,23 @@ nav{
 }
 
 
+.container-main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main-content{
+    background-color: blueviolet;
+    border: 2px dashed violet;
+    min-height: 300px;
+    padding: 12px;
+}
+
+
+.main .col{
+    padding: 12px;
+    background-color: rgb(20, 215, 141);
+    border: 2px dashed rgb(11, 184, 23);
+    flex-basis: 100%;
+}
 
