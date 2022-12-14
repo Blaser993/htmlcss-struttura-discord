@@ -85,6 +85,10 @@ nav{
     flex-basis: calc((100 / 12) * 3);
 }
 
+.center{
+    justify-content: space-around;
+}
+
 .logo{
     flex-direction: column;
     align-items: flex-start;
@@ -92,9 +96,10 @@ nav{
 }
 
 .links{
-    flex-basis: 100%;
+    flex-basis: 50%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-self: center;
     
 }
 
