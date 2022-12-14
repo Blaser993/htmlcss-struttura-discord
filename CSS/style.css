@@ -4,6 +4,12 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 /* ------------------------------------------ */
@@ -12,29 +18,59 @@
 /* STILE DEBUG */
 
 header{
+    padding: 20px;
     background-color:aquamarine;
     min-height: 80px;
 }
 
 main{
+    padding: 20px;
     background-color: lightcoral;
     min-height: 600px;
     border: 1px solid salmon;
 }
 
 section{
+    padding: 20px;
     background-color:blanchedalmond;
     min-height: 500px;
     border: 1px solid pink;
 }
 
 footer{
+    padding: 20px;
     background-color: grey;
     min-height: 300px;
     border: 1px solid black;
 }
 
+nav{
+    padding: 20px;
+    background-color: salmon;
+    min-height: 80px;
+    border: 1px solid orange;
+}
+
 .debug{
+    background-color: rgba(64, 64, 204, 0.522);
     padding: 20px;
     border: 2px dashed red;
 }
+
+.testa{
+    display: flex;
+    justify-items: center;
+}
+
+.testa > .col{
+    padding: 12px;
+    background-color: yellow;
+    border: 2px dashed darkgoldenrod;
+    flex-basis: 100%;
+}
+
+
+.col.navbar{
+    display:flex;
+}
+
