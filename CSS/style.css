@@ -12,6 +12,11 @@
     margin: 0 auto;
 }
 
+.container-main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* ------------------------------------------ */
 
 
@@ -112,12 +117,6 @@ nav{
     justify-content: center;
 }
 
-
-.container-main{
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 .main-content{
     background-color: blueviolet;
     border: 2px dashed violet;
@@ -132,6 +131,17 @@ nav{
     flex-basis: 100%;
 }
 
+.cta{
+    min-height: 100px;
+}
+
+.cta.row{
+    flex-direction: row;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
 
 .row-multicol{
     flex-direction: row;
@@ -140,12 +150,17 @@ nav{
     display: flex;
 }
 
+.cta .col{
+    padding: 12px;
+    background-color: rgb(255, 149, 0);
+    border: 2px dashed rgb(255, 226, 5);
+}
+
 .col2{
     flex-basis: calc((100%/12)*2);
     padding: 12px;
     background-color: rgb(255, 149, 0);
     border: 2px dashed rgb(255, 226, 5);
-    display:flex;
 }
 
 .col4{
@@ -153,7 +168,6 @@ nav{
     padding: 12px;
     background-color: yellow;
     border: 2px dashed darkgoldenrod;
-    display:flex;
 }
 
 .col5{
@@ -161,7 +175,6 @@ nav{
     padding: 12px;
     background-color: yellow;
     border: 2px dashed darkgoldenrod;
-    display:flex;
 }
 
 .col7{
@@ -169,7 +182,6 @@ nav{
     padding: 12px;
     background-color: rgb(255, 149, 0);
     border: 2px dashed rgb(255, 226, 5);
-    display:flex;
 }
 
 .col12{
@@ -177,5 +189,4 @@ nav{
     padding: 12px;
     background-color: rgb(40, 126, 0);
     border: 2px dashed rgb(63, 255, 5);
-    display:flex;
 }
