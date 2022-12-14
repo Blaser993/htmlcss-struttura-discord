@@ -1,3 +1,17 @@
+/* RESET GENERALI */
+
 *{
-    background-color: yellow;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------ */
+
+
+/* STILE DEBUG */
+
+header.debug{
+    background-color:aquamarine;
+    min-height: 80px;
 }
