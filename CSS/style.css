@@ -140,6 +140,22 @@ nav{
     display: flex;
 }
 
+.col2{
+    flex-basis: calc((100%/12)*2);
+    padding: 12px;
+    background-color: rgb(255, 149, 0);
+    border: 2px dashed rgb(255, 226, 5);
+    display:flex;
+}
+
+.col4{
+    flex-basis: calc((100%/12)*4);
+    padding: 12px;
+    background-color: yellow;
+    border: 2px dashed darkgoldenrod;
+    display:flex;
+}
+
 .col5{
     flex-basis: calc((100%/12)*5);
     padding: 12px;
