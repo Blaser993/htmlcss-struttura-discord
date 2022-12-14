@@ -133,7 +133,7 @@ nav{
 }
 
 
-.row-2-col{
+.row-multicol{
     flex-direction: row;
     background-color: blueviolet;
     min-height: 300px;
@@ -153,5 +153,13 @@ nav{
     padding: 12px;
     background-color: rgb(255, 149, 0);
     border: 2px dashed rgb(255, 226, 5);
+    display:flex;
+}
+
+.col12{
+    flex-basis: calc((100%/12)*12);
+    padding: 12px;
+    background-color: rgb(40, 126, 0);
+    border: 2px dashed rgb(63, 255, 5);
     display:flex;
 }
