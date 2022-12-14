@@ -69,8 +69,40 @@ nav{
     flex-basis: 100%;
 }
 
-
 .col.navbar{
     display:flex;
 }
+
+.col{
+    display:flex ;
+}
+
+.col > .row{
+    display: flex;
+}
+
+.left{
+    flex-basis: calc((100 / 12) * 3);
+}
+
+.logo{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.links{
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.menu{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
 
