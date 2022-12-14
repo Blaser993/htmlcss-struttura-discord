@@ -33,7 +33,7 @@ main{
 section{
     padding: 20px;
     background-color:blanchedalmond;
-    min-height: 500px;
+    min-height: 200px;
     border: 1px solid pink;
 }
 
@@ -80,11 +80,16 @@ nav{
 }
 
 .left{
-    flex-basis: calc((100 / 12) * 3);
+    flex-basis: calc((100% / 12) * 3);
 }
 
 .center{
+    flex-basis: calc((100% / 12) * 6);
     justify-content: space-around;
+}
+
+.right{
+    flex-basis: calc((100% / 12) * 3);
 }
 
 .logo{
@@ -120,7 +125,6 @@ nav{
     padding: 12px;
 }
 
-
 .main .col{
     padding: 12px;
     background-color: rgb(20, 215, 141);
@@ -128,3 +132,26 @@ nav{
     flex-basis: 100%;
 }
 
+
+.row-2-col{
+    flex-direction: row;
+    background-color: blueviolet;
+    min-height: 300px;
+    display: flex;
+}
+
+.col5{
+    flex-basis: calc((100%/12)*5);
+    padding: 12px;
+    background-color: yellow;
+    border: 2px dashed darkgoldenrod;
+    display:flex;
+}
+
+.col7{
+    flex-basis: calc((100%/12)*7);
+    padding: 12px;
+    background-color: rgb(255, 149, 0);
+    border: 2px dashed rgb(255, 226, 5);
+    display:flex;
+}
