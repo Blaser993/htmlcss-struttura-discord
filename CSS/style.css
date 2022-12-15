@@ -5,6 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 .container{
@@ -49,72 +50,39 @@ footer{
     border: 1px solid black;
 }
 
-nav{
-    padding: 20px;
-    background-color: salmon;
-    min-height: 80px;
-    border: 1px solid orange;
-}
-
 .debug{
     background-color: rgba(64, 64, 204, 0.522);
-    padding: 20px;
+    /* padding: 20px; */
     border: 2px dashed red;
 }
 
 .rowhead{
     flex-direction: row;
     background-color: blueviolet;
-    min-height: 80px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+
+.col{
+    padding: 12px;
+    background-color: rgb(20, 215, 141);
+    border: 2px dashed rgb(11, 184, 23);
 }
 
-.testa{
-    min-height: 72px;
-    display: flex;
-}
-
-.centro{
-
-}
-
-.sinistra{
-
-}
-
-.destra{
-    justify-items: flex-end;
-}
-
-.rowlinks{
+.nav{
     flex-basis: 50%;
-    display: flex;
     flex-direction: row;
-    justify-content:space-between;
-}
-
-
-.col.navbar{
-    display:flex;
-}
-
-
-.col > .row{
+    background-color: blueviolet;
     display: flex;
-}
+    justify-content: space-between;
+    align-items: center;
+   }
 
-
-.logo{
-    flex-basis: calc((100%/12)*3);
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
 
 .col6{
     flex-basis: calc((100%/12)*6);
-    flex-direction: row;
-    justify-content: center;
     background-color: rgb(255, 149, 0);
     border: 2px dashed rgb(255, 226, 5);
 }
@@ -122,11 +90,11 @@ nav{
 
 
 .col3{
+    flex-direction: row;
     flex-basis: calc((100%/12)*3);
-    flex-direction: column;
-    justify-content: center;
     background-color: rgb(255, 149, 0);
     border: 2px dashed rgb(255, 226, 5);
+    display: flex;
 }
 
 .main-content{
@@ -136,12 +104,6 @@ nav{
     padding: 12px;
 }
 
-.main .col{
-    padding: 12px;
-    background-color: rgb(20, 215, 141);
-    border: 2px dashed rgb(11, 184, 23);
-    flex-basis: 100%;
-}
 
 .cta{
     min-height: 100px;
@@ -194,6 +156,14 @@ nav{
     padding: 12px;
     background-color: rgb(255, 149, 0);
     border: 2px dashed rgb(255, 226, 5);
+}
+
+.col8{
+    flex-basis: calc((100%/12)*8);
+    background-color: blueviolet;
+    border: 2px dashed violet;
+    min-height: 300px;
+    padding: 12px; 
 }
 
 .col12{
